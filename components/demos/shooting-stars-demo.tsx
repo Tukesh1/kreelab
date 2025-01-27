@@ -14,12 +14,7 @@ const features = [
     icon: "/icons/design.svg",
     title: "Design & Development",
     description:
-      "We design and develop your website with the latest technologies and trends.",
-  },
-  {
-    icon: "/icons/scalable.svg",
-    title: "Scalability + Maintenance ",
-    description: "We offer maintenance and scalability for all websites.",
+      "We design and develop with the latest technologies and trends.",
   },
   {
     icon: "/icons/team.svg",
@@ -31,17 +26,6 @@ const features = [
     title: "Secure Building",
     description:
       "Safe and secure building practices. To ensure your data is safe.",
-  },
-  {
-    icon: "/icons/analytics.svg",
-    title: "Analytics Tracking",
-    description: "Track your progress with our built in analytics",
-  },
-
-  {
-    icon: "/icons/flexible.svg",
-    title: "Dynamic Websites",
-    description: "We build dynamic solutions that are easy to manage.",
   },
   {
     icon: "/icons/support.svg",
