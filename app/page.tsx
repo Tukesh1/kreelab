@@ -112,7 +112,7 @@ export default function Home() {
 
         <div className="flex items-center  gap-x-4">
           <a href="tel:519400200" className="hidden lg:flex">
-            
+
           </a>
           <Link
             href={"/meeting"}
@@ -365,34 +365,48 @@ export default function Home() {
       </section>
 
       {/* Footer of website  */}
-      <footer className="bg-[#fafafa] py-10  px-6 md:px-0 md:mx-auto border-t">
-        <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%]">
-          <h1 className="text-3xl md:text-5xl font-medium ">
-           <strong> Kreelab</strong> 
-          </h1>
-          <p className="text-left  text-xl  text-gray-500">+91 99353 67839</p>
-          <p className="text-left  text-xl  text-gray-500">
-            rishavrathore@gmail.com
-          </p>
-          <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 kreelab. All Rights Reserved.
-          <Link href="/" className="text-blue-500">
-            Privacy Policy
-          </Link>
-        </div>
-        </div>
+      <footer className="bg-[#fafafa] py-10 px-6 md:px-12 border-t">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8 xl:w-4/5 2xl:w-[68%]">
+          {/* Logo and Contact Information */}
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold">
+              <strong>Kreelab</strong>
+            </h1>
+            <div className="mt-4">
+              <p className="text-xl text-gray-500">+91 99353 67839</p>
+              <p className="text-xl text-gray-500">rishavrathore@gmail.com</p>
+            </div>
+          </div>
 
-        <div className="flex md:justify-center gap-x-4 mt-2">
-          <div className="text-center text-lg">
-            Made with <span className="text-red-500">♥</span> by 
-             <a href="https://www.linkedin.com/in/tukesh-kumar/"> 
-             <span className="text-1xl md:text-1xl font-medium">
-              <strong>@Tukesh </strong>
-            </span></a>
+          {/* Privacy and Footer Text */}
+          <div className="flex flex-col md:items-center text-gray-500">
+            <p className="text-center md:text-left mt-2 text-sm md:text-base">
+              © 2025 Kreelab. All Rights Reserved.
+            </p>
+            <Link
+              href="/"
+              className="text-blue-500 text-sm md:text-base hover:underline mt-2"
+            >
+              Privacy Policy
+            </Link>
           </div>
         </div>
 
+        {/* Footer Bottom Section */}
+        <div className="mt-10 text-center text-lg text-gray-600">
+          Made with <span className="text-red-500">♥</span> by{" "}
+          <a
+            href="https://www.linkedin.com/in/tukesh-kumar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            <strong>@Tukesh</strong>
+          </a>
+        </div>
       </footer>
+
+
     </div>
   );
 }
