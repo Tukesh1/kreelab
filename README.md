@@ -2,6 +2,10 @@
 
 Kreelab is an innovative and dynamic project that aims to revolutionize [mention the purpose of your project, e.g., "interactive web experiences" or "creative demos for web-based applications"]. The project showcases cutting-edge design and development techniques, providing engaging and immersive user interactions.
 
+## UI 
+
+- ![Alt text](https://github.com/Tukesh1/kreelab/blob/main/public/images/for_readme/front.png)
+
 ## 🚀 Features
 
 - **Interactive Demos:** A collection of visually engaging, interactive demos built with React, TypeScript, and Tailwind CSS.
@@ -16,6 +20,7 @@ Kreelab is an innovative and dynamic project that aims to revolutionize [mention
 - **Tailwind CSS** - Utility-first CSS framework for rapid styling.
 - **GitHub Pages / [Deployment Platform]** - Hosting the demo and static assets.
 - **Other Libraries:** [List other libraries or tools you used, e.g., React Router, Redux, etc.]
+
 
 ## 📦 Installation
 
