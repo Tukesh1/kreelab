@@ -13,6 +13,8 @@ import { AnimatedBeamMultipleOutputDemo } from "@/components/demos/animated-beam
 import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocity-demo";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
+import { Analytics } from "@vercel/analytics/react";
+
 
 const services = [
   {
@@ -405,8 +407,7 @@ export default function Home() {
           </a>
         </div>
       </footer>
-
-
+      <Analytics />
     </div>
   );
 }
