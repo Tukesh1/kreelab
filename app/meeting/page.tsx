@@ -21,7 +21,9 @@ const Meeting = () => {
     
     ">
       {/* <ShowcaseNavbar /> */}
-     hii 
+     <h2 className="text-3xl font-bold text-center mt-20">
+      hii , how are you this is meeting page
+      </h2>
     </div>
   );
 };
