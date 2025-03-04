@@ -18,17 +18,16 @@ const Showcase = () => {
                 <div className="flex items-center justify-center relative">
                     <WordFadeIn
                         className="text-3xl pt-20 lg:text-5xl font-semibold max-w-3xl mx-auto md:text-center   z-20  "
-                        words="Design & Code That Helps Your Business Grow"
+                        words="Marketing Services That Helps Your Business Grow"
                     />
                 </div>
                 <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
                     Have a look at some of our recent works.
                 </p>
-
-                <BlurFadeDemo />
-
-                <LetsMakeThingsHappenSection />
-
+                <div className="grid h-max justify-items-center">
+                    <h1 className="md:text-center text-4xl md:text-3xl my-6  text-bold md:w-4/5 mx-auto text-gray-800">In Progress </h1>
+                    {/* <LetsMakeThingsHappenSection /> */}
+                </div>
 
             </section>
 
