@@ -393,19 +393,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
-        {/* Footer Bottom Section */}
-        <div className="mt-10 text-center text-lg text-gray-600">
-          Made with <span className="text-red-500">♥</span> by{" "}
-          <a
-            href="https://www.linkedin.com/in/tukesh-kumar/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 hover:underline"
-          >
-            <strong>@Tukesh</strong>
-          </a>
-        </div>
+        
       </footer>
       <Analytics />
     </div>
