@@ -26,16 +26,10 @@ const Meeting = () => {
             Whether it&apos;s strategy, design, development, or consultation—we&apos;re here to help.
             Schedule a meeting and let&apos;s explore the possibilities together.
           </p>
-
-
           {[
             {
               title: "Tailored Solutions",
               description: "We provide customized solutions for your unique business needs, ensuring success across different domains.",
-            },
-            {
-              title: "Expert Consultation",
-              description: "Gain insights from industry experts to streamline your operations and maximize efficiency.",
             },
             {
               title: "End-to-End Support",
