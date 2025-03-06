@@ -14,7 +14,7 @@ import { ScrollBasedVelocityDemo } from "@/components/demos/scroll-based-velocit
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import { Analytics } from "@vercel/analytics/react";
-
+import Founder from "./founder"
 
 const services = [
   {
@@ -120,7 +120,7 @@ export default function Home() {
             href={"/meeting"}
             className=" py-3 px-5 text-lg hover:bg-[#abcbff] rounded-[6px] border-2  border-black  text-white  bg-[#121212]  transition duration-200 hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
           >
-            Book a call
+            Contact Now
           </Link>
         </div>
       </Element>
@@ -163,7 +163,7 @@ export default function Home() {
        duration-200 
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
             >
-              Book a Call
+              Contact Now
             </Link>
             <Link
               href={"/showcase"}
@@ -291,7 +291,7 @@ export default function Home() {
         <ScrollBasedVelocityDemo />
       </section>
 
-      {/* process section  */}
+      {/* process section 
       <Element name="process">
         <main className="md:px-0 mx-6 md:mx-auto">
           <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
@@ -333,7 +333,7 @@ export default function Home() {
             </div>
           </div>
         </main>
-      </Element>
+      </Element> */}
 
       {/* testimonials  */}
       <section className="mt-8">
@@ -362,9 +362,15 @@ export default function Home() {
         <ShootingStarsAndStarsBackgroundDemo />
       </Element>
 
-      <section className="my-10 md:py-20 xl:w-4/5 2xl:w-[68%] md:mx-auto">
+
+    <Founder />
+
+
+      <section className="my-6 md:py-12 xl:w-4/5 2xl:w-[68%] md:mx-auto">
         <LetsMakeThingsHappenSection />
       </section>
+
+
 
       {/* Footer of website  */}
       <footer className="bg-[#fafafa] py-10 px-6 md:px-12 border-t">
@@ -393,7 +399,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        
+
       </footer>
       <Analytics />
     </div>
