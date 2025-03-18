@@ -83,6 +83,9 @@ export default function Home() {
 
         <div className="absolute right-1/2  translate-x-1/2 transform">
           <div className="hidden md:flex gap-x-10 items-center text-gray-700 font-medium text-lg cursor-pointer">
+            <Link href={"/about"} className="hover:text-blue-500">
+              About Us
+            </Link>
             <Link href={"/showcase"} className="hover:text-blue-500">
               Showcase
             </Link>
@@ -102,13 +105,13 @@ export default function Home() {
               Process
             </ScrollLink>
 
-            <ScrollLink
+            {/* <ScrollLink
               to="guarentees"
               smooth={true}
               className="hover:text-blue-500"
             >
               Guarentees
-            </ScrollLink>
+            </ScrollLink> */}
           </div>
         </div>
 
@@ -127,7 +130,7 @@ export default function Home() {
       {/* main content goes here */}
       <main className="md:pb-10">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
-          <AnimatedShinyTextDemo />
+
           <h1>
             <CoverDemo />
           </h1>
@@ -165,6 +168,7 @@ export default function Home() {
             >
               Contact Now
             </Link>
+
             <Link
               href={"/showcase"}
               className="
@@ -218,7 +222,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={1000} /> +
+                    <NumberTicker value={200} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
@@ -291,7 +295,7 @@ export default function Home() {
         <ScrollBasedVelocityDemo />
       </section>
 
-      {/* process section 
+      {/* process section  */}
       <Element name="process">
         <main className="md:px-0 mx-6 md:mx-auto">
           <h1 className="text-3xl md:text-5xl md:text-center font-medium flex items-center gap-x-2 mx-auto justify-center">
@@ -333,7 +337,7 @@ export default function Home() {
             </div>
           </div>
         </main>
-      </Element> */}
+      </Element>
 
       {/* testimonials  */}
       <section className="mt-8">
@@ -363,7 +367,7 @@ export default function Home() {
       </Element>
 
 
-    <Founder />
+      {/* <Founder /> */}
 
 
       <section className="my-6 md:py-12 xl:w-4/5 2xl:w-[68%] md:mx-auto">
@@ -373,33 +377,73 @@ export default function Home() {
 
 
       {/* Footer of website  */}
-      <footer className="bg-[#fafafa] py-10 px-6 md:px-12 border-t">
-        <div className="container mx-auto flex flex-col md:flex-row justify-between items-start gap-8 xl:w-4/5 2xl:w-[68%]">
-          {/* Logo and Contact Information */}
-          <div>
-            <h1 className="text-3xl md:text-5xl font-bold">
+      <footer className="bg-[#fafafa] py-12 px-6 md:px-12 border-t border-gray-200">
+        <div className="container mx-auto max-w-7xl flex flex-col md:flex-row justify-between items-start gap-12">
+
+          {/* Brand Section */}
+          <div className="space-y-4">
+            <h1 className="text-3xl font-bold tracking-tight">
               <strong>Kreelab</strong>
             </h1>
-            <div className="mt-4">
-              <p className="text-xl text-gray-500">+91 99353 67839</p>
-              <p className="text-xl text-gray-500">rishavrathore@gmail.com</p>
+            <p className=" text-gray-600 max-w-xs">
+              Marketing That Never Sleeps!
+            </p>
+            <div className="flex space-x-4">
+              {/* Placeholder for social icons - replace with actual icons */}
+              <a href="#" aria-label="Facebook" className="text-gray-500 hover:text-blue-600">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  {/* Facebook SVG Path */}
+                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                </svg>
+              </a>
+              <a href="#" aria-label="Twitter" className="text-gray-500 hover:text-blue-400">
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  {/* Twitter SVG Path */}
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                </svg>
+              </a>
             </div>
           </div>
 
-          {/* Privacy and Footer Text */}
-          <div className="flex flex-col md:items-center text-gray-500">
-            <p className="text-center md:text-left mt-2 text-sm md:text-base">
-              © 2025 Kreelab. All Rights Reserved.
+          {/* Contact Section */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Contact Us</h3>
+            <ul className="space-y-2 text-sm text-gray-600">
+              <li>+91 99353 67839</li>
+              <li>
+                <a href="mailto:rishavrathore@gmail.com" className="hover:text-blue-500 transition-colors">
+                  rishavrathore@gmail.com
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Address Section */}
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-gray-900">Our Address</h3>
+            <p className="text-sm text-gray-600 leading-relaxed">
+              124/57 A, D Block<br />
+              Govind Nagar<br />
+              Kanpur, Uttar Pradesh- 208006<br />
+              India
             </p>
-            <Link
-              href="/"
-              className="text-blue-500 text-sm md:text-base hover:underline mt-2"
-            >
+          </div>
+
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="container mx-auto max-w-7xl mt-10 pt-6 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-gray-500 text-sm">
+          <p>&copy; {new Date().getFullYear()} Kreelab. All Rights Reserved.</p>
+          <div className="mt-2 md:mt-0">
+            <Link href="/privacy-policy" className="text-blue-500 hover:underline">
               Privacy Policy
+            </Link>
+            <span className="mx-2">|</span>
+            <Link href="/terms-of-service" className="text-blue-500 hover:underline">
+              Terms of Service
             </Link>
           </div>
         </div>
-
       </footer>
       <Analytics />
     </div>

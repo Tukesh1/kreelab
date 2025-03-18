@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Calendly from "./calendly";
 import ShowcaseNavbar from "@/components/navbar";
 
+
 const checkItemVariants = {
   hidden: { opacity: 0, x: -50 },
   visible: { opacity: 1, x: 0 },
@@ -20,7 +21,6 @@ const Meeting = () => {
       <ShowcaseNavbar />
       <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto">
         <div className="md:w-2/5">
-          <h1 className="text-4xl font-semibold pt-10">Let&apos;s Connect</h1>
           <h1 className="text-4xl font-semibold pt-10">Let&apos;s Connect</h1>
           <p className="text-lg text-gray-500 py-4">
             Whether it&apos;s strategy, design, development, or consultation—we&apos;re here to help.
