@@ -1,6 +1,8 @@
 # Kreelab
 
-Kreelab is an innovative and dynamic project that aims to revolutionize [mention the purpose of your project, e.g., "interactive web experiences" or "creative demos for web-based applications"]. The project showcases cutting-edge design and development techniques, providing engaging and immersive user interactions.
+
+**Kreelab** is a cutting-edge marketing website designed to help brands grow with innovative strategies, real-time analytics, and seamless content updates. With 24/7 support, Kreelab ensures businesses stay ahead by delivering dynamic and data-driven marketing solutions.
+
 
 ## UI 
 
@@ -15,11 +17,9 @@ Kreelab is an innovative and dynamic project that aims to revolutionize [mention
 
 ## 🛠 Technologies Used
 
-- **React** - Frontend framework for building UI components.
+- **Next Js** - Frontend framework for building UI components.
 - **TypeScript** - For type safety and better developer experience.
 - **Tailwind CSS** - Utility-first CSS framework for rapid styling.
-- **GitHub Pages / [Deployment Platform]** - Hosting the demo and static assets.
-- **Other Libraries:** [List other libraries or tools you used, e.g., React Router, Redux, etc.]
 
 
 ## 📦 Installation
