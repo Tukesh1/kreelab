@@ -203,10 +203,10 @@ const Showcase = () => {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li>+91 99353 67839</li>
+              <li>+91 9369938791</li>
               <li>
-                <a href="mailto:rishavrathore@gmail.com" className="hover:text-blue-500 transition-colors">
-                  rishavrathore@gmail.com
+                <a href="mailto:contact@kreelab.com" className="hover:text-blue-500 transition-colors">
+                contact@kreelab.com
                 </a>
               </li>
             </ul>

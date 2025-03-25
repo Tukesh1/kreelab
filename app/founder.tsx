@@ -19,7 +19,7 @@ export default function Home() {
                   <Image src="/images/founder.png" alt="Founder" layout="fill" objectFit="cover" />
                 </div>
                 <h3 className="text-xl font-semibold mt-3 group-hover:text-blue-600 transition-colors">
-                  Rishav Rathore
+                  Rishabh Rathore
                 </h3>
                 <p className="text-gray-500">Founder & CEO</p>
               </div>

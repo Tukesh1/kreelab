@@ -55,7 +55,7 @@ const services = [
   },
   {
     icon: "/images/influencer.png",
-    title: "Infulencer ",
+    title: "Influence ",
     description:
       "From clicks to customers—drive real results with precision marketing",
   },
@@ -128,10 +128,9 @@ export default function Home() {
         </div>
       </Element>
       {/* main content goes here */}
-      <main className="md:pb-10">
-        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto mt-14">
-
-          <h1>
+      <main className="md:pb-10 ">
+        <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto pt-12 mt-14">
+          <h1 className="pt-4">
             <CoverDemo />
           </h1>
           <p
@@ -355,8 +354,8 @@ export default function Home() {
             </h1>
 
             <span className="text-xl font-medium">
-              AP Dhillon  <br />
-              CEO,BKL University
+              Nikhil   <br />
+              CEO - Soapy-wise
             </span>
           </div>
         </main>
@@ -409,10 +408,10 @@ export default function Home() {
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-gray-900">Contact Us</h3>
             <ul className="space-y-2 text-sm text-gray-600">
-              <li>+91 99353 67839</li>
+              <li>+91 9369938791</li>
               <li>
-                <a href="mailto:rishavrathore@gmail.com" className="hover:text-blue-500 transition-colors">
-                  rishavrathore@gmail.com
+                <a href="mailto:contact@kreelab.com" className="hover:text-blue-500 transition-colors">
+                  contact@kreelab.com
                 </a>
               </li>
             </ul>
