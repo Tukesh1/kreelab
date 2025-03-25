@@ -120,10 +120,10 @@ const Showcase = () => {
                             <div className="max-w-xs mx-auto">
                                 <img
                                     src="/images/founder.png" // Replace with actual image path
-                                    alt="Priya Sharma, Co-Founder"
+                                    alt="Piyush Chhabra, Co-Founder"
                                     className="w-36 h-36 rounded-full mx-auto mb-4 object-cover border-4 border-blue-100"
                                 />
-                                <h3 className="text-2xl font-semibold text-gray-900">Priya Sharma</h3>
+                                <h3 className="text-2xl font-semibold text-gray-900">Piyush Chhabra</h3>
                                 <p className="text-sm text-gray-500 italic">Co-Founder & Operations Lead</p>
                                 <p className="mt-3 text-gray-600 leading-relaxed">
                                     Priya keeps Kreelab running like clockwork, blending precision with a relentless drive to deliver results. Her operational expertise ensures we’re always ready for action.
