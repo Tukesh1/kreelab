@@ -12,7 +12,7 @@ export default function Home() {
             <h2 className="text-3xl font-bold text-gray-800 mb-6">Meet Our Founders</h2>
 
             <div className="flex flex-col md:flex-row items-center justify-center gap-16">
-              
+
               {/* Founder */}
               <div className="text-center group">
                 <div className="relative w-48 h-48 mx-auto overflow-hidden rounded-full shadow-lg transition-transform group-hover:scale-105">
